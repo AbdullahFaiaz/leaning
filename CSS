@@ -2,10 +2,23 @@ Websites:
 Color picker
 Flat UI color
 color hunt
-Font Awesome 
+Font Awesome = icon 
+Unsplash= image
 
 <span class= "emoji"> &heart; </span>
 text,font,line height,
+
+
+
+body{
+
+    background-image: url("./business-flatlay-in-india.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background: url("./business-flatlay-in-india.jpg") no-repeat cover fixed;
+}
 
 i {
     box-sizing: border-box;
@@ -14,8 +27,9 @@ i {
     border: 2px solid cyan;
     margin: 5px 5px;
     background-color: #747d8c;
-    
 }
 a {
     display: inline-block;
+    max-width/height: 500px;
+    overflow: auto,hidden,visible, scroll;
 }
