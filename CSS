@@ -43,3 +43,11 @@ row::after{
     display: table:}
 
 box-shadow: .1rem .2rem 1(blur) color;
+
+display: flex;
+justify-content: center;
+align-item: center;
+
+text-style-type: none;
+text-decoration: none;
+z-index:1;
