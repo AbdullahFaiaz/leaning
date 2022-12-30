@@ -56,7 +56,7 @@ z-index:1;
 
 display: inline-block helps to make the background specific to the text area not to the whole row.
 
-overflow: visibility:
+
 
 ________________________________________________________________________________________________________________________________________
 1. Block Elements take the full line and Inline elements take only the text area of the line.
@@ -76,4 +76,12 @@ Absolute: moves(flies in the sky{z indexing powerful} meaning gives away the pla
 Fixed: works in the same way as absolute but stays fixed when scrolled.
 Sticky: stays fixed when scrolled but must mention top:0; or any value with the helpig elements to work.
 
-
+7. Outline-width-style-color-offset(optional): 1px solid red 5px
+8. a:link a:visited 
+a:hover{
+    transition:1sec; color should take 1 second to fully change after hovering.
+a:active
+9. Object-fit: cover;
+object-position: top cente;for video and image only.
+10. overflow: visibility: display: 
+difference between display:none and visibiliity: hidden is display: none doesn't keep its place.
