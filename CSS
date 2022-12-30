@@ -68,10 +68,10 @@ ________________________________________________________________________________
 5. To put two box on top of each other use {position: absilute} for each div.
 
 
-6. Positions:
+6. Positions: z-index doesn't work without position.
 Static= default;
-Relative: moves the div but doesn't give away his property or the place where he was before moving.
-Absolute: moves(flies in the sky{z indexing powerful} meaning gives away the place) the div and gives asway his property or the place where he was before moving.
+Relative: (flies in the air without giving away space)moves the div but doesn't give away his property or the place where he was before moving.
+Absolute: moves(flies in the air{z indexing powerful} meaning gives away the place) the div and gives asway his property or the place where he was before moving.
     default relative of the Absolute div is the body tag if no relative is available in its parent div(element).
 Fixed: works in the same way as absolute but stays fixed when scrolled.
 Sticky: stays fixed when scrolled but must mention top:0; or any value with the helpig elements to work.
