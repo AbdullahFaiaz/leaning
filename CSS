@@ -55,3 +55,14 @@ text-align: justify;
 z-index:1;
 
 display: inline-block helps to make the background specific to the text area not to the whole row.
+
+
+________________________________________________________________________________________________________________________________________
+1. Block Elements take the full line and Inline elements take only the text area of the line.
+    div, h1-h6 are block elements and we can make them inline by saying "display: inline;".
+    
+2. max-width is responsive unlike width.
+3. after using float the next element needs to be pushed down with "<div class=clear> =style .clear{ clear:both:}.
+4. to get a nev menu to the center of the screen use:"margin: 0 auto;" 
+5. 
+
