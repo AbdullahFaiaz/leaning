@@ -37,17 +37,17 @@ a {
 
 float: left;
 to clear float
-row::after{
-    content: "";
-    clear: both;
-    display: table:}
+   clear: both;
 
-box-shadow: .1rem .2rem 1(blur) color;
+
+box-shadow: (+-).1rem (+-).2rem 1(blur) color;
 
 display: flex; 
+flex-direction: row,column,row-revers,clolumn-reverse;
+flex-wrap: wrap; for responsiveness
 flex-basis: 50%;
-justify-content: center;
-align-item: center;
+justify-content: flex-start/end,center;
+align-item: start,end,center;
 
 text-style-type: none;
 text-decoration: none;
@@ -56,6 +56,7 @@ z-index:1;
 
 display: inline-block helps to make the background specific to the text area not to the whole row.
 
+overflow: visibility:
 
 ________________________________________________________________________________________________________________________________________
 1. Block Elements take the full line and Inline elements take only the text area of the line.
@@ -64,5 +65,15 @@ ________________________________________________________________________________
 2. max-width is responsive unlike width.
 3. after using float the next element needs to be pushed down with "<div class=clear> =style .clear{ clear:both:}.
 4. to get a nev menu to the center of the screen use:"margin: 0 auto;" 
-5. 
+5. To put two box on top of each other use {position: absilute} for each div.
+
+
+6. Positions:
+Static= default;
+Relative: moves the div but doesn't give away his property or the place where he was before moving.
+Absolute: moves(flies in the sky{z indexing powerful} meaning gives away the place) the div and gives asway his property or the place where he was before moving.
+    default relative of the Absolute div is the body tag if no relative is available in its parent div(element).
+Fixed: works in the same way as absolute but stays fixed when scrolled.
+Sticky: stays fixed when scrolled but must mention top:0; or any value with the helpig elements to work.
+
 
