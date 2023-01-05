@@ -1,0 +1,41 @@
+___To Select An Element______________________________________________________
+document.getElementById("ID");
+docunent.getElementsByTagName("Tag")[0];
+docunent.getElementsByClassName("Class")[0];
+
+document.querySelector("Id"/"#Tag"/".Class");
+document.querySelectorAll("Id"/"#Tag"/".Class")[0];
+
+Traversing:
+Element=document.querySelector("Id"/"#Tag"/".Class");
+Element.querySelector("Id"/"#Tag"/".Class");
+______________________________________________________________________________
+
+
+
+___To Change the Element after selecting______________________________________
+
+(Element=document.querySelector("IdName"/"#TagName"/".ClassName");)
+
+Element.innerHTML = 'new content';
+Element.attribute = 'new value';
+Element.style.property = 'new style';
+
+Method:
+Element.setAttribute('Attribute', 'value');
+Element.setAttribute("class", "democlass");\\to add class\\
+______________________________________________________________________________
+
+
+___To Create an Element_______________________________________________________
+
+var ni = document.createElement('img'); //creating the new img tag//
+document.querySelector("body"/".class").appendChild(ni); //appending the tag in the HTML tree//
+ni.setAttribute('class','ii'); // creating a class named as ii//
+
+
+
+
+
+
+
