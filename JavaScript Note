@@ -31,7 +31,13 @@ ___To Create an Element_______________________________________________________
 
 var ni = document.createElement('img'); //creating the new img tag//
 document.querySelector("body"/".class").appendChild(ni); //appending the tag in the HTML tree//
-ni.setAttribute('class','ii'); // creating a class named as ii//
+ni.setAttribute('class','ii'); // creating/adding a class named as ii//
+
+___To Add or Remove a Class___________________________________________________
+
+var Element= document.querySelector("Id"/"#Tag"/".Class");
+
+    Element.classList.remove/add('class');
 
 
 
